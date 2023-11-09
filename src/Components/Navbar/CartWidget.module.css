@@ -1,0 +1,44 @@
+.cartWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cartIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  background-color: #999595;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: color, background-color 0.4s linear;
+}
+
+.cartIcon:hover{
+  background-color: rgb(40, 40, 40);
+  color: whitesmoke;
+
+}
+
+.productCount {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f00;
+  border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+.container{
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  padding-top: 100px
+}
+
+.inputContainer{
+  padding:10px 0px;
+}
+
+.buttonContainer{
+  padding:20px 0px 30px 0px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.errorMessage{
+  color: red;
+  display: block;
+  font-size: 14px;
+ 
+}
+.successMessage{
+  color: green;
+  display: block;
+  font-size: 14px;
+}

@@ -1,0 +1,39 @@
+.footer {
+  background-color: rgb(79, 81, 80);
+  color: #fff;
+  padding: 40px 0px;
+}
+
+.footer .icon-hamburger {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+ 
+}
+
+.footer p {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.footer .icon-pedidosya {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  
+}
+
+.footer .icon-instagram {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  
+}
+
+.footer .icon-facebook {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+
+}

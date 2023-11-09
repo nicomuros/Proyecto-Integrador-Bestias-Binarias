@@ -1,0 +1,24 @@
+
+
+.links{
+  text-decoration: none;
+  color: #143907;
+  font-weight: bold;
+
+}
+
+.links:hover{
+  color: rgb(21, 21, 21);
+
+}
+
+.buttons{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar{
+  background-color:  var(--color-1);
+  
+}
+

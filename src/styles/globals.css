@@ -1,0 +1,47 @@
+/*
+En los archivos globales configuramos los estilos que se aplican a todos los componentes de la aplicación.
+Cuando tengamos los colores desde la paleta de colores, las fuentes, y las configuraciones de las mismas,
+solo tenemos que modificar las variables globales y se aplicarán a todos los componentes.
+
+El uso de estas variables es muy importante para mantener la consistencia en la aplicación.
+Además, facilita la construccion de componentes reutilizables.
+*/
+
+/* COLORES DE LA PALETA DE COLORES */
+:root {
+  --color-1: #3AA314 ;
+  --color-2: #81c7b1;
+  --color-3: #1bb9be;
+  --color-4: #196F83; 
+  --color-5: #17330D; 
+}
+
+/* CONFIG DE LA FUENTE */
+/* Fuente generica para titulos y parrafos */
+/* Titulos en mayuscula */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase; 
+}
+
+/* Los elementos h2 se transforman en minuscula, excepto la primer letra */
+h2{
+  text-transform:lowercase;
+}
+
+h2::first-letter{
+  text-transform: capitalize;
+}
+
+/* Parrafos, span, anchors y li */
+p, span, a, li{
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* Aca van a ir los media query para responsividad */

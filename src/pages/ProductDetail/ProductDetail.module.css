@@ -1,0 +1,59 @@
+/* ProductDetailComponent.module.css */
+
+/* Estilo para el contenedor de la página */
+.row {
+  background-color: #ececec; /* Fondo gris claro */
+  min-height: 80vh;
+  margin: 0!important;
+  display: flex;
+  flex-direction: row; /* Muestra la imagen y la información lado a lado en pantallas más grandes */
+  justify-content: space-between; /* Separa la imagen y la información */
+}
+
+/* Estilo para el título del producto */
+.nombre {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #333; /* Texto en gris oscuro */
+}
+
+/* Estilo para la descripción del producto */
+.descripcion {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: rgb(75, 75, 75); /* Texto en gris medio */
+  margin: 0 5% 5% 5% ;
+}
+
+/* Estilo para el precio del producto */
+.precio {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222; /* Texto en gris oscuro más oscuro */
+}
+
+/* Estilo para la imagen del producto */
+.imagen {
+  background-color: rgba(191, 191, 191, 0.182);
+  border: #333 dotted 1px;
+  border-radius: 20px;
+  max-height: 70vh!important;
+  object-fit: cover;
+}
+
+/* Añadir estilos para hacerlo responsive */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Apila la imagen y la información en pantallas más pequeñas */
+    align-items: center;
+    padding: 20px;
+  }
+
+  .imagen {
+    max-width: 80%; /* La imagen ocupa todo el ancho en pantallas más pequeñas */
+    text-align: center;
+  }
+}
